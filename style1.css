@@ -1,0 +1,59 @@
+*{
+    margin: 0;
+    padding: 0%;
+}
+body{
+    background-image: url(photos/sea\ beach.jpg);
+    background-attachment: no-repeat center center fixed;
+    background-size: cover;
+}
+.container{
+    color: white;
+    position: absolute;
+    top: 15%;
+    left: 55%;
+}
+.container h1{
+    text-align: center;
+    font-size: 40px;
+    border-bottom: 5px solid coral;
+    margin-bottom: 17px;
+    padding: 13px 0;
+}
+.box{
+    width: 100%;
+    border-bottom: 2px solid coral;
+    margin: 25px 0;
+}
+.box i{
+    width: 30px;
+    text-align: center;
+    
+}
+
+.box input{
+    background: none;
+    border: none;
+    width: 75%;
+    padding: 6px 10px;
+    font-size: 23px;
+    outline: none;
+    color: whitesmoke;
+    border-radius: 10px;
+}
+
+.btn{
+    cursor: pointer;
+    outline: none;
+    margin: 5px 150px;
+    padding: 10px 15px;
+    border-radius: 10px;
+    border: 2px solid crimson;
+    font-size: 20px;
+    background: none;
+    font-weight: bold;
+}
+.btn:hover{
+    background-color: chocolate;
+    color: chartreuse;
+}
